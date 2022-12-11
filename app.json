@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/index/zhuye",
+        "pages/shenhe/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#4A7A6E"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
