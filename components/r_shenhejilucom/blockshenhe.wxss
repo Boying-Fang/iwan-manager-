@@ -1,0 +1,116 @@
+/* component/blockshenhe.wxss */
+.block2{
+  display: flex;
+  width: 390px;
+  height: 180px;
+  border-radius: 7px;
+  background-color: #FAFAFA;
+}
+.block_image2{
+  position: relative;
+  top: 4px;
+  left: 8px;
+  width: 83px;
+  height: 117px;
+}
+.block_inform2{
+  position: relative;
+  width: 100%;
+  height: 117px;
+  top: 0;
+  left: 0;
+}
+.block_head2{
+  position: absolute;
+  float: left;
+  padding: 0;
+  margin: 0;
+  left: 100px;
+  top: 6px;
+  width: 160px;
+  height: 32px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'hua';
+  line-height: 24px;
+}
+.block_button2{
+  position: absolute;
+  right: 50rpx;
+  top: 23rpx;
+  width: 110rpx !important;
+  height: 60rpx;
+  font-size: 27rpx;
+  padding: 10rpx;
+  padding-left: 10rpx;
+  border-radius: 27rpx;
+  color: azure;
+}
+.block_inf2{
+  position: absolute;
+  left: 111px;
+  top: 38px;
+  width: 160px;
+  height: 82px;
+  
+}
+.block_time2,.block_position2,.block_score2{
+  float: left;
+  width: 160px;
+  
+  height: 22px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.block_star2{
+  position: relative;
+  float: left;
+  width: 14.8px;
+  height: 14.1px;
+  margin: 2.5px;
+  margin-top: 3px;
+}
+.block_starnum2{
+  color: #EA9518;
+  position: relative;
+  float: left;
+  width: 10px;
+  height: 18px;
+}
+
+.block_intro2{
+  position: absolute;
+  float: left;
+  left: 12px;
+  top: 131px;
+  width: 300px;
+  height: 44px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #858585;
+}
+.suggest-box2{
+    position: fixed;
+    z-index: 2;
+    top:30%;
+    left:1%;
+    background-color: #ffffff;
+    margin:0 5% 0 1%;
+    overflow: hidden;
+    border:3rpx solid rgb(114, 116, 114);
+    border-radius: 50rpx;
+    height: 300rpx;
+    width: 95%;
+    text-align: center;
+}
+.suggest-box2 image{
+    height: 80rpx;
+    width: 80rpx;
+    position: absolute;
+    left: 600rpx;
+}
+.suggest-box2 text{
+    font-size: larger;
+    font-weight: 600;
+}
