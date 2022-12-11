@@ -8,5 +8,6 @@
         "navigationBarBackgroundColor": "#4A7A6E"
     },
     "style": "v2",
-    "sitemapLocation": "sitemap.json"
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
 }
