@@ -1,0 +1,21 @@
+<!--component/blockshenhe.wxml-->
+<view class="block2" bindtap="gotoshenhe">
+ <view class="block_inform2">
+  <image class="block_image2" src="{{block_src}}"></image>
+  <text class="block_head2">{{block_head}}</text>
+ 
+ <view class="block_inf2">
+    <text class="block_time2">时间：{{time}}</text>
+    <text class="block_position2">地点：{{position}}</text>
+ </view>
+ 
+ <view>
+    <button class="block_button2" bindtap="suggest" style='background-color: {{color}}'>{{status}}</button>
+ </view>
+  <view class="block_intro2">简介：{{intro}}</view></view>
+</view>
+<view class="suggest-box2" hidden="{{flag}}">
+    <text>审核意见</text>
+    <image src="../../image/xx.svg" bindtap="hide2"></image>
+    <view>{{content}}</view>
+</view>
